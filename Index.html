@@ -1,0 +1,125 @@
+<html>
+
+<head>
+   
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+        <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="https://www.gomycode.tn/">
+            <img src="https://gomycode.tn/images/section2GMCLogo.png" width="50" height="50" class="d-inline-block align-top"
+                alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">COURSES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <nav class="navbar navbar-light bg-dark">
+            <a class="navbar-brand" href="https://www.gomycode.tn/">
+                <img src="https://gomycode.tn/images/section2GMCLogo.png" width="50" height="50" class="d-inline-block align-top"
+                    alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">COURSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://www.disruptunisia.com/couverture/5cd9f73e0a79c.png" height="100%"
+                    alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://pbs.twimg.com/media/D5FucxVUYAAVJ3I.png" height="100%" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://cdn-images-1.medium.com/max/1600/1*LzxEGZa4xDOFc7Ch67Iprg.jpeg"
+                    height="100%" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <center>
+        <p id="cours"> Courses </p>
+        <div class="container-fluid">
+        <div class="row">
+        
+            <div class="col-lg-4">
+             <button class="boutton"><a href="#ex1" rel="modal:open">View More</a></button> 
+                <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel.png">
+            </div>
+            <div class="col-lg-4">
+                     <button class="boutton"><a href="#ex1" rel="modal:open">View More</a></button> 
+                <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel1.png">
+            </div>
+            <div class="col-lg-4">
+                   <button class="boutton"><a href="#ex1" rel="modal:open">View More</a></button>
+                <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel2.png">
+            </div>
+        </div></div>
+        <p id="More">More about GoMyCode:</p>
+
+        <video src="https://www.youtube.com/embed/MkLog_27S6U" width=60%></video>
+
+
+        <div id="ex1" class="modal">
+            <p>This is a GoMyCode Track. </p>
+            <p>Each track has its own goal.</p>
+            <p>By adopting this track, you chose your own goal.</p>
+            <a href="#" rel="modal:close">Close</a>
+        </div>
+      
+
+    </body>
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-database.js"></script>
+    </html>
